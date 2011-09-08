@@ -1,0 +1,14 @@
+The WebPurify Profanity Filter Web Service consists of several callable methods. To perform an action using the WebPurify Web Service, you need to send a request to its endpoint specifying a method and some arguments using the REST calling convention. You will then receive a formatted response.
+
+The REQUIRED parameter method is used to specify the calling method. Currently WebPurify offers 6 methods:
+    webpurify.live.check
+    webpurify.live.checkcount
+    webpurify.live.replace
+    webpurify.live.return
+    webpurify.live.addtoblacklist
+    webpurify.live.addtowhitelist
+The REQUIRED parameter api_key is used to authenticate your request. If you don't have a license key you can purchase one.
+
+The REQUIRED parameter text is the string you would like to check for profanity.
+
+The arguments, responses and error codes for each method are listed on each spec page for each method.
