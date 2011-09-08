@@ -199,3 +199,4 @@ class WebPurify(object):
         params['format'] = 'json'
 
         return urllib.urlencode(params)
+        
